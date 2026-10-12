@@ -86,7 +86,7 @@ def render(preset: Preset, originals: Path, width: int = 5120, on_stage: StageHo
     mask = clutter_mask(img, smooth_l, preset.sky_t, protect)
     if on_stage:
         overlay = img.copy()
-        overlay[mask > 0] = overlay[mask > 0] * 0.3 + np.array([0.1, 0.1, 0.9], np.float32) * 0.7
+        overlay[mask > 0] = overlay[mask > 0] * 0.6 + np.array([0.05, 0.05, 0.55], np.float32) * 0.4
         stage("2a-clutter-mask", overlay)
     img = paint_out(img, mask, smooth, k)
     del mask

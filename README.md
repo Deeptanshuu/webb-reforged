@@ -83,7 +83,7 @@ flowchart LR
 <table>
 <tr>
 <td width="33%"><img src="docs/stages/1-framed.jpg"><br><b>1 · Frame</b></td>
-<td width="33%"><img src="docs/stages/2a-clutter-mask.jpg"><br><b>2 · Find clutter</b> <sub>(red = removed)</sub></td>
+<td width="33%"><img src="docs/stages/2a-clutter-mask.jpg"><br><b>2 · Find clutter</b> <sub>(red = painted out)</sub></td>
 <td width="33%"><img src="docs/stages/2b-decluttered.jpg"><br><b>2 · Declutter</b></td>
 </tr>
 <tr>
