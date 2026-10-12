@@ -1,0 +1,13 @@
+# source images and renders (large; fetch / render them locally)
+/originals/
+/out/
+/stages/
+*.part
+
+# python
+.venv/
+__pycache__/
+*.egg-info/
+dist/
+build/
+.DS_Store
